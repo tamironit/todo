@@ -1,7 +1,7 @@
 node {
     def newApp
     def registry = 'https://registry-1.docker.io/v2/'
-	def imagename = "frenzy669/todo-ronit"
+	def imagename = "frenzy669/ronit"
     def registryCredential = 'dockerhub'
 	
 	stage('Git') {
